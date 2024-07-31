@@ -1,24 +1,28 @@
+# comments
 
-> Open this page at [https://abchatra.github.io/comment/](https://abchatra.github.io/comment/)
+## Usage
 
-## Use as Extension
+Go to https://makecode.microbit.org, click on the gearwheel menu and select ``Extensions``, search for ``comments`` and select this extension. Once you load the extension you should see a new category named **Comments**.
 
-This repository can be added as an **extension** in MakeCode.
+Following are the API reference:
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/abchatra/comment** and import
+## line
 
-## Edit this project
+The ``||comments.line||`` block adds a comments to the block
 
-To edit this repository in MakeCode.
+```sig
+comments.line("one line comment");
+```
+## License
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/abchatra/comment** and click import
+MIT
 
-#### Metadata (used for search, rendering)
+## Supported targets
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+(The metadata above is needed for package search.)
+
+
+## Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
